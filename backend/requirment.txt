@@ -1,0 +1,9 @@
+django
+djangorestframework
+psycopg2-binary
+langchain
+langchain-community
+sentence-transformers
+pgvector
+streamlit
+requests

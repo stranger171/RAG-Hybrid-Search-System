@@ -1,0 +1,11 @@
+student_id,name,age,class,section,math_marks,science_marks,english_marks,attendance_percentage,fees_paid,fees_pending,height,weight,blood_group
+1,Rahul Sharma,16,10,A,78,82,74,92,50000,0,165,55,B+
+2,Aman Verma,15,9,B,65,70,68,88,40000,5000,170,60,O+
+3,Priya Singh,16,10,A,90,91,89,95,50000,0,160,50,A+
+4,Neha Gupta,14,8,C,72,75,70,85,30000,2000,155,48,B-
+5,Rohit Kumar,17,11,A,85,80,78,90,60000,0,175,65,O-
+6,Sneha Patel,15,9,B,88,84,86,93,40000,0,158,52,A+
+7,Arjun Mehta,16,10,C,60,65,63,80,45000,5000,172,62,B+
+8,Kavya Nair,14,8,A,92,89,94,96,30000,0,150,45,O+
+9,Vikas Yadav,17,11,B,70,68,72,87,60000,2000,178,70,A-
+10,Anjali Desai,15,9,C,95,93,96,98,40000,0,162,54,AB+
