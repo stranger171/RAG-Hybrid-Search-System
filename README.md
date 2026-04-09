@@ -8,7 +8,7 @@ A sophisticated AI-powered chatbot system that combines Retrieval-Augmented Gene
 - **Memory Management**: Maintains conversation history for context-aware responses
 - **Real-time Chat**: Streamlit-based user interface for interactive conversations
 - **RAG Integration**: Retrieves relevant documents before generating responses
-- **Token Optimization**: Efficient handling of LLM context windows
+- **Token Optimization**: Efficient handling of the LLM context windows
 
 ## 📋 How to Query/Ask Questions
 
