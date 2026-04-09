@@ -234,22 +234,6 @@ streamlit run streamlit_app.py
 streamlit run streamlit_app.py --server.port 8502
 ```
 
-## 📊 Loading Sample Data
-
-The project includes sample datasets:
-- `data/data.csv` - Initial dataset
-- `data/students_5000.csv` - Large dataset with 5000 student records
-
-Load data into database:
-```bash
-cd backend
-python manage.py shell
->>> from apps.students.models import Student
->>> import pandas as pd
->>> df = pd.read_csv('../data/students_5000.csv')
->>> # Process and save to database
-```
-
 ## 🛡️ Environment Variables
 
 | Variable | Description | Example |
