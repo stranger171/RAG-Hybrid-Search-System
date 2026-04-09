@@ -1,10 +1,25 @@
 from django.db import models
 
 class Student(models.Model):
+    student_id = models.IntegerField()
     name = models.CharField(max_length=100)
-    student_class = models.CharField(max_length=10)
+    age = models.IntegerField()
+    class_name = models.IntegerField()
+    section = models.CharField(max_length=5)
 
-class Marks(models.Model):
-    student = models.ForeignKey(Student, on_delete=models.CASCADE)
-    subject = models.CharField(max_length=50)
-    marks = models.IntegerField()
+    math_marks = models.IntegerField()
+    science_marks = models.IntegerField()
+    english_marks = models.IntegerField()
+
+    attendance_percentage = models.FloatField()
+
+    fees_paid = models.IntegerField()
+    fees_pending = models.IntegerField()
+
+    height = models.IntegerField()
+    weight = models.IntegerField()
+
+    blood_group = models.CharField(max_length=5)
+
+    def __str__(self):
+        return self.name

@@ -7,3 +7,6 @@ sentence-transformers
 pgvector
 streamlit
 requests
+python-dotenv
+pandas
+dj-database-url
