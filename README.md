@@ -38,7 +38,7 @@ The chatbot accepts natural language queries about student data. Examples:
 - **Django REST Framework** - RESTful API development
 - **LangChain** - LLM orchestration framework
 - **Ollama** - Local LLM inference engine
-- **PostgreSQL + pgvector** - Database with vector extensions
+- **PostgreSQL + Neon ** - Database with vector extensions
 - **sentence-transformers** - Embedding generation
 - **python-dotenv** - Environment variable management
 
